@@ -1,0 +1,45 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 800px;
+	height: auto;
+	margin: 0 auto;
+	background: green;
+}
+/*home*/
+.tren{
+	width: 100%;
+	height: auto;
+	background: #5ea;
+}
+.giua{
+	width: 100%;
+	height: auto;
+	background: #ff00;
+}
+.cuoi{
+	width: 100%;
+	height: 50px;
+	background: #3333cc;
+	float: left;
+}
+.row1 {
+	width: 120px;
+	height: 500px;
+	background: red;
+	float: left;
+}
+.row2 {
+	width: 560px;
+	height: 500px;
+	background: yellow;
+	float: left;
+}
+.row3 {
+	width: 120px;
+	height: 500px;
+	background: red;
+	float: left;
+}

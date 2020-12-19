@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+$maudocam:#FF5622;
+$maudoson:#D7102C;
+$maudenx:#333;
+$mautrangksp:#f4f4f4;
+$maunen:#EFF0F3;
+@mixin brcl($br,$cl) {
+background: $br;
+color: $cl;
+}
+@mixin crccbr($cr,$cc,$br) {
+	width: $cr;
+	height: $cc;
+	background: $br;
+}
+.qc-bnaner-1{
+	.k-bnaner{
+		background: $mautrangksp;
+		overflow: hidden;
+		.anh-baner1{
+			@include crccbr(540px,230px,$mautrangksp);
+			float: left;
+			margin: 20px 20px;
+			img{
+				@include crccbr(540px,230px,$mautrangksp);
+				border-radius: 5px 5px;
+			}
+		}
+	}
+}
+.khung-qb{
+	h2{
+		font-weight: bold;
+	}
+	.row{
+		.khoi-sp{
+			background: $maunen;	
+		}
+		.pr-next{
+			font-size: 10px;
+		}
+	}
+
+}
+
+-------login--------
+.row{
+	.contairner{
+		.col-md-12{
+			
+			border: 1px solid $maudoson;
+			.col-md-6{
+				
+			}
+		}	
+		
+	}
+}
+

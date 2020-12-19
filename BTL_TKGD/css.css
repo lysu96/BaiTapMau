@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.qc-bnaner-1 .k-bnaner {
+  background: #f4f4f4;
+  overflow: hidden;
+}
+.qc-bnaner-1 .k-bnaner .anh-baner1 {
+  width: 540px;
+  height: 230px;
+  background: #f4f4f4;
+  float: left;
+  margin: 20px 20px;
+}
+.qc-bnaner-1 .k-bnaner .anh-baner1 img {
+  width: 540px;
+  height: 230px;
+  background: #f4f4f4;
+  border-radius: 5px 5px;
+}
+
+.khung-qb h2 {
+  font-weight: bold;
+}
+.khung-qb .row .khoi-sp {
+  background: #EFF0F3;
+}
+.khung-qb .row .pr-next {
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=css.css.map */

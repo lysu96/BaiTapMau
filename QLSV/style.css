@@ -1,0 +1,28 @@
+*{
+	padding: 0px;
+	margin: 0 auto;
+}
+h3{
+	background: #ea4;
+	font-size: 30px;
+	padding: 5px 5px;
+	text-align: center;
+	color: #fff;
+}
+.them{
+	width: 500px;
+	height: auto;
+	margin-top: 50px;
+	border: 1px solid #000;
+}
+table{
+	width: 500px;
+	height: auto;
+	margin: 5px 5px;
+}
+table tr td{
+	font-size: 18px;
+}
+table tr td input{
+	font-size: 18px;
+}

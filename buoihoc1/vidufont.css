@@ -1,0 +1,24 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	width: 500px;
+	height: auto;
+	margin: 0px auto;
+	border: 1px solid #6e6e;
+}
+
+.data{
+	width: 500px;
+	height: auto;
+}
+.data label{
+	font-size: 18px;
+	padding: 10px;
+}
+.data input{
+	font-size: 18px;
+	margin: 5px;
+}

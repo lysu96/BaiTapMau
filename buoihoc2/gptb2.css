@@ -1,0 +1,32 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.contaner{
+	width: 500px;
+	height: auto;
+	margin: 0 auto;
+	background: #fbe;
+	border:1px solid #000;
+}
+h3{
+	text-align: center;
+	width: 499px;
+	height: 30px;
+	padding-top: 10px;
+	background: #8e8e;
+	border:1px solid #000;
+}
+.contaner form{
+	padding: 30px;
+}
+
+.contaner form label{
+	font-size: 24px;
+
+}
+.contaner form input{
+	padding: 10px;
+	margin: 5px;
+	border-radius: 10px;
+}

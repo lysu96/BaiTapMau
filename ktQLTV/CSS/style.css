@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.them {
+  width: 800px;
+  height: auto;
+  margin: 0 auto; }
+  .them h3 {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #3333ff;
+    color: #ffffff; }
+  .them table input {
+    font-size: 18px;
+    margin: 5px 5px; }
+
+/*# sourceMappingURL=style.css.map */

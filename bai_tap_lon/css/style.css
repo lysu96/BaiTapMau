@@ -1,0 +1,506 @@
+body{
+    min-width: 480px;
+}
+.home {
+	background-color: #f0f0f0;
+}
+@media(min-width: 768px) {
+    .field-label-responsive {
+        padding-top: .5rem;
+        text-align: right;
+
+    }
+}
+
+ul, ol {
+    list-style: none;
+}
+.tin-cong-nghe{
+    width: 33.33%;
+    background-color: #fff;
+}
+div#nz-div {
+    border-bottom: 2px solid red;
+    margin-bottom: 28px;
+    display: block;
+}
+#nz-div h3.tde {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#nz-div h3.tde :after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 20px solid #EA3A3C;
+    border-bottom: 0px solid transparent;
+    border-right: 0 solid transparent;
+    position: absolute;
+    top: 0px;
+    right: -20px;
+}
+
+#nz-div h3.tde span {
+    background: #EA3A3C;
+    padding: 10px 20px 8px 20px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+
+.tin-cong-nghe ul{
+    display: block;
+    overflow: hidden;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.tin-cong-nghe li {
+    display: block;
+    font-size: 13px;
+    padding: 10px 10px 5px;
+    border-bottom: 1px solid #ededed;
+    background: #fff;
+}
+.tin-cong-nghe li img {
+    float: left;
+    width: 100px;
+    height: 57px;
+    margin: 0 10px 0 0;
+}
+.tin-cong-nghe li a {
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+
+img {
+    border: 0;
+}
+.tin-cong-nghe li h3 {
+    display: block;
+    overflow: hidden;
+    height: 36px;
+    line-height: 1.3em;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+.tin-cong-nghe li span {
+    float: left;
+    font-size: 12px;
+    color: #999;
+    margin-right: 10px;
+}
+.vi-header {
+    border-bottom: solid 1px #0056a8;
+}
+.vi-left-title-2:after {
+    border: 17px solid transparent;
+    border-left-color: #0056a8;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    content: "";
+}
+.vi-left-title-2 {
+    width: auto;
+    background: #0056a8;
+    color: #fff;
+    padding: 3px 10px;
+    font-size: 18px;
+    position: relative;
+    margin: 0;
+}
+.vi-left-title-2 a {
+    color: #fff;
+}
+.pull-left {
+    float: left;
+}
+.pull-left {
+    margin-left: 0 !important;
+}
+.vi-right-link a:first-child {
+    margin-left: 0;
+}
+.vi-right-link a {
+    color: #555;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.vi-right-link a.vi-more, .vi-right-link a:hover {
+    color: #0056a8;
+}
+.vi-right-link a.vi-more:after {
+    content: "\f101";
+    font-family: FontAwesome;
+    margin-left: 4px;
+}
+.vi-right-link a.vi-more, .vi-right-link a:hover {
+    color: #0056a8;
+}
+.vi-right-link a.vi-more:after {
+    content: "\f101";
+    font-family: FontAwesome;
+    margin-left: 4px;
+}
+.anh{
+    float: right;
+    position: relative;
+    display: block;
+    width: 66%;
+}
+@media screen and (max-width:1200px) {
+    .anh {
+        float: none;
+        width: 100%;
+    }
+    .tin-cong-nghe {
+        width: 100%;
+    }
+    .homeproduct li {
+    
+    width: 50%;
+    
+}
+}
+
+/* san pham */
+
+.homeproduct {
+    clear: both;
+    display: block;
+    background: #fff;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    flex: 1 100%;
+    border-top: 1px solid #eee;
+    margin-bottom: 15px;
+}
+.homeproduct li {
+    float: left;
+    position: relative;
+    min-width: 25%;
+    overflow: hidden;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.homeproduct li a {
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    padding: 10px 0;
+}
+.homeproduct a>img {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.homeproduct li img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 15px auto;
+}
+.homeproduct li h3 {
+    display: block;
+    line-height: 1.3em;
+    font-size: 14px;
+    padding: 0 10px;
+    color: #333;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.homeproduct li .price {
+    display: block;
+    overflow: hidden;
+    padding: 5px 10px 10px 10px;
+}
+.homeproduct li strong {
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    font-size: 14px;
+    color: #e10c00;
+    line-height: 15px;
+}
+.homeproduct li .promo {
+    display: block;
+    padding: 0 10px;
+    margin: 0 10px 0 0;
+    margin: 0;
+}
+.homeproduct li .promo img {
+    display: block;
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin: 0;
+}
+.homeproduct li .promo p {
+    font-size: 12px;
+    color: #333;
+    line-height: 1.4;
+    width: 165px;
+    float: left;
+    margin-left: 10px;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.homeproduct li .promo:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.homeproduct li label.installment {
+    background: #f28902;
+}
+.homeproduct li label {
+    display: inline-block;
+    position: absolute;
+    top: 187px;
+    left: 10px;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 600;
+    background: #3fb846;
+    border-radius: 2px;
+    padding: 0 5px;
+    height: 18px;
+}
+#main-content {
+            background: #fff;
+            padding: 15px 0px;
+        }
+        #main {
+            display: block;
+        }
+        .woocommerce .woocommerce-breadcrumb {
+            margin: 0 0 1em;
+            padding: 0;
+            font-size: .92em;
+            color: #777;
+        }
+        .woocommerce div.product {
+            margin-bottom: 0;
+            position: relative;
+        }
+        .dst_single_title {
+            padding: 0px 0px 10px 0px;
+            border-bottom: 1px solid #e3e3e3;
+            margin-bottom: 15px;
+            position: relative;
+        }
+        .woocommerce div.product .dst_single_title .product_title {
+            font-size: 24px;
+            color: #3d3d3d;
+            font-weight: normal;
+            margin-bottom: 5px;
+        }
+        .woocommerce div.product .product_title {
+            clear: none;
+            margin-top: 0;
+            padding: 0;
+        }
+        .dst_single_title .dst_subtitle {
+            display: inline;
+            width: 100%;
+            font-size: 75%;
+        }
+        .dst_subtitle {
+            display: block;
+            width: 100%;
+            font-size: 75%;
+        }
+        .logo{
+            width: 350px;
+            height: 350px;
+            text-align: center;
+        }
+        .logo img{
+            width: 100%;
+            height: 100%;
+        }
+        .gia{
+            text-align: center;
+            display: inline-block;
+            overflow: hidden;
+            font-size: 26px;
+            color: #d0021b;
+            vertical-align: middle;
+            margin-right: 5px;
+            font-weight: 600;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+        .button{
+            text-align: center;
+            vertical-align: middle;
+            float: left;
+            color: white;
+            text-transform: uppercase;
+            line-height: 1.2;
+            font-size: 16px;
+            width: 100%;
+            vertical-align: middle;
+            float: left;
+            padding: 5px 10px 7px 10px;
+            background-color: #ff6600 !important;
+            border-radius: 2px;
+            box-shadow: 0 2px 2px 0 rgba(0,0,0,.23);
+            position: relative;
+            font-weight: 600;
+            overflow: hidden;
+        }
+        .button:hover{
+            background-color: #ff4400 !important;
+            cursor: pointer;
+        }
+        .button span {
+            display: block;
+            font-size: 12px;
+            color: #fff;
+            text-transform: none;
+            margin-top: 5px;
+        }
+.dst-ctitle {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+table.shop_attributes {
+    border: 0;
+    border-top: 1px solid #e3e3e3;
+    border-spacing: 0;
+    border-collapse: collapse;
+    background-color: transparent;
+    border: 0;
+    border-top: 1px dotted rgba(0,0,0,.1);
+    margin-bottom: 1.618em;
+    width: 100%;
+}
+
+table.shop_attributes th {
+    font-weight: 600;
+    border-bottom: 1px solid #e3e3e3;
+    font-size: 13px;
+    line-height: 1.7;
+}
+table.shop_attributes th {
+    width: 150px;
+    font-weight: 700;
+    padding: 8px;
+    border-top: 0;
+    border-bottom: 1px dotted rgba(0,0,0,.1);
+    margin: 0;
+    line-height: 1.5;
+}
+ table.shop_attributes td {
+    font-style: normal;
+    border-bottom: 1px solid #e3e3e3;
+}table.shop_attributes td,.ttct p {
+    font-style: italic;
+    padding: 0;
+    border-top: 0;
+    border-bottom: 1px dotted rgba(0,0,0,.1);
+    margin: 0;
+    line-height: 1.5;
+}
+table.shop_attributes td p,.ttct p {
+    margin: 0;
+    padding: 6px 0;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+
+/* khuyen mai */
+
+.dst-km {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    float: left;
+    margin-bottom: 15px;
+}
+.dst-km  h3{
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e3e3e3;
+    font-weight: normal;
+    margin:0px;
+}
+.dst-km  ul{
+    padding:10px;
+}
+.dst-km .dst-list {
+    padding-left: 25px;
+    list-style: disc;
+    float: left;
+    display: block;
+    line-height: 1.8;
+    margin-bottom: 0px;
+}
+#jc_kem{
+    padding: 5px;
+    /*max-height: 212px;*/
+}
+#jc_kem::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+#jc_kem::-webkit-scrollbar
+{
+    width: 3px;
+    background-color: #F5F5F5;
+}
+
+#jc_kem::-webkit-scrollbar-thumb
+{
+    background-color: #797979;
+}
+#jc_kems::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+#jc_kems::-webkit-scrollbar
+{
+    width: 3px;
+    background-color: #F5F5F5;
+}
+

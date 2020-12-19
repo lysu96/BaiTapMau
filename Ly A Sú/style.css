@@ -1,0 +1,81 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.Danhsach{
+	width: 700px;
+	height: auto;
+	border: 1px solid #000;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding-bottom:5px;
+}
+h1{
+	text-align: center;
+}
+.Danhsach .luachon{
+	text-decoration: none;
+	margin-left: 10px;
+}
+.luachon:hover{
+	text-decoration: underline;
+}
+h2{
+	width: 700px;
+	height: 40px;
+	text-align: center;
+	background: #3385ff;
+	padding-top:10px;
+	color:#fff;
+}
+.Danhsach td{
+	font-size: 18px;
+}
+.Danhsach td input{
+	font-size: 25px;
+}
+.Danhsach table{
+	margin: 0 auto;
+}
+.Danhsach a input{
+	margin: 10px 10px;
+}
+/* xử lý ảnh */
+.Danhsach .img-idol{
+	width: 700px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 5px;
+	overflow: auto;
+}
+.Danhsach .img-idol .img-rows{
+	width: 160px;
+	height: 200px;
+	margin: 5px 6px;
+	border: 1px solid #000;
+	float: left;
+	
+}
+.Danhsach .img-idol .img-rows .img-row{
+	width: 160px;
+	height: 180px;
+	
+	
+}
+.Danhsach .img-idol .img-rows .img-row img{
+	width: 160px;
+	height: 180px;
+}
+.detail{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.detail a{
+	text-decoration: none;
+}
+
+/* me */
+form{
+	margin-top: 5px;
+}
